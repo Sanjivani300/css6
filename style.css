@@ -1,0 +1,199 @@
+/* table{
+    border: 1px solid red;
+    border-collapse:collapse ;
+    empty-cells: hide;
+    table-layout: auto;
+    width:100%;
+  }
+caption{
+    border: 1px solid red;
+    caption-side:bottom;
+}
+th{
+    border: 1px solid red;
+    height: 35px;
+    padding: 15px;
+    text-align: right;
+}
+td{
+    border: 1px solid red;
+    height: 25px;
+    padding:10px ;
+    text-align:left;
+    vertical-align: middle;
+}      */
+
+/* #fun{
+    background-color: teal;
+    height:200px;
+    width:calc(100% - 200px);
+}
+a{
+    padding:10px 30px;
+    margin: 80px;
+    background-color: blueviolet;
+    color:white;
+    text-decoration: none;
+}    */
+ 
+/* :root{
+    --primary-color:teal;
+    --btn-color:blueviolet;
+    --text-color:white;
+}
+#fun{
+    background-color: teal;
+    height:200px;
+    width:calc(100% - 200px);
+}
+a{
+    padding:10px 30px;
+    margin: 80px;
+    background-color: blueviolet;
+    color:white;
+    text-decoration: none;
+}  */
+
+/* :root{
+    --primary-color:teal;
+    --btn-color:blueviolet;
+    --text-color:white;
+}
+#fun{
+    background-color: var(--primary-color);
+    height:200px;
+    width:calc(100% - 200px);
+}
+a{
+    padding:10px 30px;
+    margin: 80px;
+    background-color:var(--btn-color);
+    color:var(--text-color);
+    text-decoration: none;
+} */
+
+/* #div1{
+    background-color: blueviolet;
+    width:600px;
+    height: 150px;
+}
+#div2{
+    background-color: chocolate;
+    width:600px;
+    height:150px;
+    padding:50px;
+    border:10px solid black;
+    box-sizing:border-box;
+} */
+
+/* #green{
+    color:green;
+}
+#blue{
+    color:red;
+}
+#initial{
+    color:initial;         ....... initial=by defoult= blue color
+}
+#inherit{
+    color:inherit;          .......  parent color= #green= green color 
+}  */
+
+/* img{
+    border:1px solid red;
+    width:500px;
+    height:400px;
+    object-fit:cover;
+    object-position: top left;
+}     */
+
+/* li:last-child{
+    color:red;
+} */
+
+/* li:nth-child(3n + 1){
+    color:red;
+} */
+
+/* li:nth-last-child(2){
+    color:red;
+} */
+
+/* input:focus{
+    border: 3px solid red;
+} */
+
+/* selector::pseudo-element{     
+
+} */
+
+/* p::first-letter{
+    font-size: 35px;
+    color:red;
+} */
+
+/* p::first-line{
+    font-size: 35px;
+    color:red;
+}  */
+
+/* h1::before{
+    content: url(CSSimage.jpg);
+}
+h1::after{
+    content: " added after";
+} */
+
+/* ::selection{
+    color:red;
+    background: black;
+} */
+
+/* block        ......  default 
+inline         ........default
+inline-block     ......not-d
+none            .....not-d         */
+
+/* .display{
+    border: 1px solid red;
+}  */
+
+/* .display{
+    border: 1px solid red;
+    width: 50%;
+    height: 100px;
+} */
+
+/* .display{
+    border: 1px solid red;       
+    width: 50%;
+    height: 100px;
+    display: inline;
+}  */
+
+/* .display{
+    border: 1px solid red;       
+    display: inline-block;
+} */
+
+/* .display{                   
+    border: 1px solid red;       
+    width: 50%;
+    height: 100px;
+    display: inline-block;
+}
+#div1{
+    display: none;
+    height: 500px;
+}   */
+
+/*.display{
+    border: 1px solid red;       
+    width: 50%;
+    height: 100px;
+    display: inline-block;
+}
+#div1{
+    visibility:hidden;
+    height: 500px;
+}  */
